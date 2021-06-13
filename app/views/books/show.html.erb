@@ -1,7 +1,11 @@
+<% flash.each do |key, value| %>
+     <%= value %>
+  <% end %>
+<br>
 <strong>Title:</strong>
   <%= @book.title %>
 <br>
-<strong>Body:</strong>
+<strong>Body:</strong>%
   <%= @book.body %>
 
 <br>
